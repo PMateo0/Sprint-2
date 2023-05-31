@@ -1,0 +1,800 @@
+{
+	"tables": {
+		"532060a9-392d-428a-a3a1-93d472691d70": {
+			"id": "532060a9-392d-428a-a3a1-93d472691d70",
+			"visible": true,
+			"name": "Compra / Venta",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "88851d59-440a-4a81-8336-d58e21d9a565",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false
+				},
+				{
+					"id": "208d2442-7a98-471d-8f18-5c1590ac57fe",
+					"name": "Suplier",
+					"datatype": "ad281519-2809-4a1e-9aba-e9e391e9025d",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "20735745-efa5-420c-aed4-56fc18e5729b",
+					"name": "Customer",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "Customer"
+				}
+			],
+			"relations": [
+				"15743c95-ea42-417b-991d-77d214704690"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "2b7d3fa6-d893-48b9-899c-78ad96f32f83",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "46b27ded-329e-45e4-bc72-f711b1443260",
+							"colid": "88851d59-440a-4a81-8336-d58e21d9a565"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"031ccc71-1754-416f-af19-b0252325b756": {
+			"id": "031ccc71-1754-416f-af19-b0252325b756",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "8b3d7969-3230-43e1-bc18-027fd8f67538",
+					"name": "jhmjhmjhgmj",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "4b3a170a-f492-46c1-984e-63a3b6bfb0b1",
+					"name": "",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "8096a79e-e1c7-4c0f-a1db-9ec90cfb08c3",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"ad281519-2809-4a1e-9aba-e9e391e9025d": {
+			"id": "ad281519-2809-4a1e-9aba-e9e391e9025d",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "7e359c24-8336-43b8-ac36-674795057199",
+					"name": "name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a3b6878d-5568-4e58-8c37-97a2187fb45a",
+					"name": "Adress",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b4105065-e14e-4b68-95cb-7532816868dd",
+					"name": "Phone",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "15aa0b4c-c9d8-4a87-b7d8-6dddb90a37a8",
+					"name": "Fax",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "e78f8954-667a-4c1b-81ff-2377782e11ee",
+					"name": "NIF",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "0ed289ba-2dc1-46f9-86db-4e63ae20ed8a",
+					"name": "Brand",
+					"datatype": "98eab004-71e7-421a-bec5-caf72addf08f",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "6c821d9e-131a-4e1f-b65b-4003722b5975",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"10fd5f42-c9ca-4d4c-96ea-1d984900fb0d": {
+			"id": "10fd5f42-c9ca-4d4c-96ea-1d984900fb0d",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "58fa4936-dcbd-43b2-ac93-88d122ccaaf6",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"98eab004-71e7-421a-bec5-caf72addf08f": {
+			"id": "98eab004-71e7-421a-bec5-caf72addf08f",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "1cd5f087-b601-4069-8c24-e51dbce16b5a",
+					"name": "Name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a1047a22-c4ff-48c0-acfa-2bd3f50cc066",
+					"name": "Glasses",
+					"datatype": "e6b07c59-9188-458f-85d8-34a25daae64e",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "ab875c84-c148-4237-a707-dc0bd170e75b",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"e6b07c59-9188-458f-85d8-34a25daae64e": {
+			"id": "e6b07c59-9188-458f-85d8-34a25daae64e",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "7aef5aa6-32f7-4012-880b-fb08b691bbbd",
+					"name": "GlassesGraduation D",
+					"datatype": "decimal",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "05f75b5d-05bc-4126-95c5-622c97cc3f6b",
+					"name": "GlassesGraduation I",
+					"datatype": "decimal",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "81526277-7352-4e39-9052-02387777f48a",
+					"name": "GlassesFrame",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "e7255314-5cbc-4d1c-af47-a0c5d2575d5b",
+					"name": "FrameColor",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "52889baa-99b1-423d-af7e-2c851b6a14c9",
+					"name": "GlassColor D",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "7dbeae86-3a5c-40ad-9c75-6978d1421daa",
+					"name": "GlassColor I",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "55a42a73-197d-42db-ab9b-1f1435717c3f",
+					"name": "Price",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "31b67695-d601-44cc-b4de-b15f6cd922bf",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"55d23490-48e9-4eef-877d-ab3b0ccfe6f7": {
+			"id": "55d23490-48e9-4eef-877d-ab3b0ccfe6f7",
+			"visible": true,
+			"name": "Customer",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "37715cf9-53bf-47b0-894c-c311580793ce",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "6007f6a0-1095-4317-aa3d-93d81b265d11",
+					"name": "Employee",
+					"datatype": "7e6aa09b-ce0d-4b41-b0e3-4fb268861cd0",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "2d2cef69-abfb-4a23-b092-f637d773357b",
+					"name": "Name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "9143853e-6b80-4757-af96-3f7cb0f68fec",
+					"name": "Adress",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "616df233-d7af-4053-af45-1954cf448c5d",
+					"name": "Phone",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "3266f7bf-1942-4ad2-b62e-6f46c4bd157a",
+					"name": "Mail",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "66f9e191-fe49-4ec1-bc30-1717f853a9c7",
+					"name": "Customer",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"fk": true,
+					"ref": "Customer"
+				}
+			],
+			"relations": [
+				"2ffda497-aa60-4a1f-9b7d-a2b0a26c4cac",
+				"15743c95-ea42-417b-991d-77d214704690"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "2a2b922a-f8cf-4a14-89b4-2ff135d538e2",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "1cf98c28-3281-470e-a80e-77b3a3a0bde4",
+							"colid": "37715cf9-53bf-47b0-894c-c311580793ce"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"7e6aa09b-ce0d-4b41-b0e3-4fb268861cd0": {
+			"id": "7e6aa09b-ce0d-4b41-b0e3-4fb268861cd0",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "463739df-97eb-4555-a652-d6f139324e2d",
+					"name": "Name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "df27b8a7-bfec-4dad-8fe5-24bba8fd41e5",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"relations": {
+		"2ffda497-aa60-4a1f-9b7d-a2b0a26c4cac": {
+			"id": "2ffda497-aa60-4a1f-9b7d-a2b0a26c4cac",
+			"visible": true,
+			"name": "Customer_Customer",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "2a2b922a-f8cf-4a14-89b4-2ff135d538e2",
+			"parent": "55d23490-48e9-4eef-877d-ab3b0ccfe6f7",
+			"child": "55d23490-48e9-4eef-877d-ab3b0ccfe6f7",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "one",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "84052885-4149-4085-a7b3-fdcb353f07f1",
+					"parentcol": "37715cf9-53bf-47b0-894c-c311580793ce",
+					"childcol": "66f9e191-fe49-4ec1-bc30-1717f853a9c7"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"15743c95-ea42-417b-991d-77d214704690": {
+			"id": "15743c95-ea42-417b-991d-77d214704690",
+			"visible": true,
+			"name": "Customer_Compra / Venta",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "2a2b922a-f8cf-4a14-89b4-2ff135d538e2",
+			"parent": "55d23490-48e9-4eef-877d-ab3b0ccfe6f7",
+			"child": "532060a9-392d-428a-a3a1-93d472691d70",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "eaac467f-cbfd-4a27-b964-66cf17f36156",
+					"parentcol": "37715cf9-53bf-47b0-894c-c311580793ce",
+					"childcol": "20735745-efa5-420c-aed4-56fc18e5729b"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "N1EX1",
+		"id": "5615c129-6ccd-4ffb-9ceb-b3cf8dc74f7d",
+		"activeDiagram": "4442facf-72c9-4258-8e0c-51467ddf3294",
+		"desc": "",
+		"path": "",
+		"type": "MONGODB",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 6,
+			"minor": 4,
+			"extra": 1
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"writeFileParam": false,
+		"currentDisplayMode": "metadata",
+		"def_coltopk": true,
+		"def_validationLevel": "na",
+		"def_validationAction": "na",
+		"def_collation": "",
+		"def_others": ""
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"4442facf-72c9-4258-8e0c-51467ddf3294": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "4442facf-72c9-4258-8e0c-51467ddf3294",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"532060a9-392d-428a-a3a1-93d472691d70": {
+					"referencedItemId": "532060a9-392d-428a-a3a1-93d472691d70",
+					"x": 63,
+					"y": 30,
+					"gHeight": 349,
+					"gWidth": 214,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"031ccc71-1754-416f-af19-b0252325b756": {
+					"referencedItemId": "031ccc71-1754-416f-af19-b0252325b756",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"ad281519-2809-4a1e-9aba-e9e391e9025d": {
+					"referencedItemId": "ad281519-2809-4a1e-9aba-e9e391e9025d",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"10fd5f42-c9ca-4d4c-96ea-1d984900fb0d": {
+					"referencedItemId": "10fd5f42-c9ca-4d4c-96ea-1d984900fb0d",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"98eab004-71e7-421a-bec5-caf72addf08f": {
+					"referencedItemId": "98eab004-71e7-421a-bec5-caf72addf08f",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"e6b07c59-9188-458f-85d8-34a25daae64e": {
+					"referencedItemId": "e6b07c59-9188-458f-85d8-34a25daae64e",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"55d23490-48e9-4eef-877d-ab3b0ccfe6f7": {
+					"referencedItemId": "55d23490-48e9-4eef-877d-ab3b0ccfe6f7",
+					"x": 64,
+					"y": 493,
+					"gHeight": 171,
+					"gWidth": 215,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"7e6aa09b-ce0d-4b41-b0e3-4fb268861cd0": {
+					"referencedItemId": "7e6aa09b-ce0d-4b41-b0e3-4fb268861cd0",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd",
+			"showHorizontal": true,
+			"showDescriptions": true,
+			"showIndicators": true,
+			"showProgress": true,
+			"lineWidth": "2",
+			"boxSize": "0",
+			"showIndicatorCaptions": true
+		}
+	},
+	"order": [],
+	"collapsedTreeItems": [],
+	"reverseStats": {}
+}
